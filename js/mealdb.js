@@ -21,6 +21,9 @@ const displayMeal = (meals) => {
             <div class="card-body">
                 <h5 class="card-title">${meal.strMeal}</h5>
                 <p class="card-text">${meal.strInstructions}</p>
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mealDetails">
+                       Launch demo modal
+                 </button>
             </div>
         </div>
         `;
